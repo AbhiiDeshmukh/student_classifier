@@ -1,0 +1,87 @@
+{
+  "dataset": "UCI Predict Students' Dropout and Academic Success (id 697)",
+  "target": "Target",
+  "classes": [
+    "Dropout",
+    "Enrolled",
+    "Graduate"
+  ],
+  "feature_columns": [
+    "Marital status",
+    "Application mode",
+    "Application order",
+    "Course",
+    "Daytime/evening attendance",
+    "Previous qualification",
+    "Previous qualification (grade)",
+    "Nacionality",
+    "Mother's qualification",
+    "Father's qualification",
+    "Mother's occupation",
+    "Father's occupation",
+    "Admission grade",
+    "Displaced",
+    "Educational special needs",
+    "Debtor",
+    "Tuition fees up to date",
+    "Gender",
+    "Scholarship holder",
+    "Age at enrollment",
+    "International",
+    "Curricular units 1st sem (credited)",
+    "Curricular units 1st sem (enrolled)",
+    "Curricular units 1st sem (evaluations)",
+    "Curricular units 1st sem (approved)",
+    "Curricular units 1st sem (grade)",
+    "Curricular units 1st sem (without evaluations)",
+    "Curricular units 2nd sem (credited)",
+    "Curricular units 2nd sem (enrolled)",
+    "Curricular units 2nd sem (evaluations)",
+    "Curricular units 2nd sem (approved)",
+    "Curricular units 2nd sem (grade)",
+    "Curricular units 2nd sem (without evaluations)",
+    "Unemployment rate",
+    "Inflation rate",
+    "GDP"
+  ],
+  "nominal_columns": [
+    "Marital status",
+    "Application mode",
+    "Course",
+    "Previous qualification",
+    "Nacionality",
+    "Mother's qualification",
+    "Father's qualification",
+    "Mother's occupation",
+    "Father's occupation"
+  ],
+  "n_rows_after_dedup": 4424,
+  "n_train": 3539,
+  "n_test": 885,
+  "random_seed": 5361,
+  "best_params": {
+    "Logistic Regression": {
+      "C": 0.5,
+      "class_weight": null
+    },
+    "Decision Tree": {
+      "criterion": "gini",
+      "max_depth": 6,
+      "min_samples_leaf": 1
+    },
+    "KNN": {
+      "n_neighbors": 17,
+      "p": 1,
+      "weights": "uniform"
+    },
+    "Naive Bayes": {
+      "var_smoothing": 0.31622776601683794
+    },
+    "Support Vector Machine": {
+      "C": 5.0,
+      "gamma": 0.005
+    }
+  },
+  "sklearn_version": "1.9.1",
+  "python_version": "3.12.4"
+}
