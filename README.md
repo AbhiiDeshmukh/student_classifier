@@ -1,7 +1,7 @@
 # Student Outcome Classifier - ML Assignment 2
 
-**Live Streamlit app:** <https://YOUR-APP-NAME.streamlit.app>  
-**GitHub repository:** <https://github.com/YOUR-GITHUB-USERNAME/student-outcome-classifier>
+**Live Streamlit app:** <https://studentclassifier-ivfhgvccnlclkcw3mavfdj.streamlit.app>  
+**GitHub repository:** <https://github.com/AbhiiDeshmukh/student_classifier>
 
 ---
 
@@ -43,10 +43,10 @@ interactive Streamlit web app that evaluates them on any uploaded test CSV.
 
 ## c. GitHub repository link
 
-<https://github.com/YOUR-GITHUB-USERNAME/student-outcome-classifier>
+<https://github.com/AbhiiDeshmukh/student_classifier>
 
 ```
-student-outcome-classifier/
+student_classifier/
 |-- app.py                     # Streamlit app (loads saved models, no retraining)
 |-- train_models.py            # trains + tunes + evaluates the 5 models, saves artefacts
 |-- evaluation.py              # shared constants and metric helpers
